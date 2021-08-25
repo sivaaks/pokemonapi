@@ -176,8 +176,8 @@ body {
   display: none;
 }
 
-@media (max-width: 870px) {
+/* @media (max-width: 870px) {
   .header-container {
     height: 250px;
   }
-}
+} */
