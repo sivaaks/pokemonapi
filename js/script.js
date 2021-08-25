@@ -233,10 +233,11 @@ function refreshData(){
     const inputValue= document.querySelector('.input-text');
     numberOfPokemons= inputValue.value;
     if(inputValue.value==='') numberOfPokemons=60;
-    if(inputValue.value>120) {
-        inputValue.value= 'Enter a number below 121';
+    if(inputValue.value>84) {
+        inputValue.value= 'Enter a number below 84';
         inputValue.style.color='red';
     } else {
+    inputValue.style.color='black';
     document.querySelector('.pagination-container').remove();
     currentPage=0;
     updatePage(1);
