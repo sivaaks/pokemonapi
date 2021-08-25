@@ -202,11 +202,10 @@ body {
   }
   .container {
     display: block;
-    margin: 0px;
-    width: auto;
   }
 
   .pokemon-container {
     width: auto;
+    margin-left: 10px;
   }
 }
