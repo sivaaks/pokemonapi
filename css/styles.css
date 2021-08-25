@@ -177,21 +177,27 @@ body {
 
 @media (max-width: 870px) {
   .header-container {
-    height: 250px;
+    height: 230px;
   }
 
   .input-text {
     margin-bottom: 10px;
   }
 
+  .input-container {
+    text-align: center;
+  }
+
   .options {
     display: block;
+    justify-content: center;
   }
 
   .display-options {
     font-size: 14px;
     padding: 5px;
     margin-top: 8px;
+    text-align: center;
   }
   .page-button {
     padding: 5px 10px 5px 10px;
@@ -212,5 +218,9 @@ body {
 
   .header-container {
     margin: 0 10px 0px 10px;
+  }
+
+  .moves {
+    display: inline-block;
   }
 }
