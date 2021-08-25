@@ -254,6 +254,5 @@ function randomColor() {
     return colors[(Math.floor(Math.random(0, (colors.length - 1)) * 10)).toFixed()];
 }
 
-
 updatePage(1);
 setPaginationButtons();
