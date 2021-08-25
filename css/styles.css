@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  background-color: whitesmoke;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header-container {
+  height: 180px;
+  background-color: white;
+  display: block;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 30px 0px 30px;
+  border-radius: 10px;
+}
+
+.img-logo {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 10px;
+  height: 100px;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+}
+
+.input-container {
+  padding: 10px;
+  margin-left: auto;
+}
+
+.input-text {
+  width: 200px;
+  height: 25px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: whitesmoke;
+  overflow: hidden;
+}
+
+.pokemon-container {
+  height: 470px;
+  width: 450px;
+  background-color: white;
+  display: block;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.img-container {
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: skyblue;
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.weight-tag {
+  background: tomato;
+}
+
+.ability-tag {
+  background: forestgreen;
+}
+
+.move-tag {
+  background: rgb(19, 176, 238);
+}
+
+.weight-tag,
+.move-tag,
+.ability-tag {
+  font-weight: bold;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 3px;
+  font-size: 14px;
+}
+.moves,
+.ability,
+.weight {
+  margin-top: 14px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.pokemon-container:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.img:hover {
+  cursor: pointer;
+  transform: scale(1.1) rotate(5deg);
+  transition: 0.8s;
+  overflow: hidden;
+}
+
+.pagination-container {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center;
+}
+
+.pages {
+  display: inline-block;
+  gap: 10px;
+}
+
+.page-button {
+  padding: 10px 20px 10px 20px;
+  margin-right: 10px;
+  background-color: tomato;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+}
+
+.page-button:hover {
+  cursor: pointer;
+  background-color: forestgreen;
+}
+
+.page-button:active {
+  background-color: goldenrod;
+}
+
+.display-options {
+  padding: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.more-moves {
+  display: none;
+}
+
+@media (max-width: 870px) {
+  .header-container {
+    height: 250px;
+  }
+}
